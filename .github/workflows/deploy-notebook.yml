@@ -21,7 +21,7 @@ jobs:
         ORIGIN_HOST=${{ secrets.DATABRICKS_ORIGIN_HOST }}
         ORIGIN_TOKEN=${{ secrets.DATABRICKS_ORIGIN_TOKEN }}
         NOTEBOOK_BASE="/Workspace/Users/luznancyorozcoorozco@gmail.com/ProyectoFinal_lno"
-        NOTEBOOKS=("DDL_Proyecto_lno" "Extract_Proyecto_lno" "Load_Proyecto_lno", "reversion-Proyecto_lno", "Seguridad_Proyecto_lno", "Transform_Proyecto_lno")  # Agrega más según necesitesas
+        NOTEBOOKS=("DDL_Proyecto_lno" "Extract_Proyecto_lno" "Load_Proyecto_lno" "reversion-Proyecto_lno" "Seguridad_Proyecto_lno" "Transform_Proyecto_lno")  # Agrega más según necesitesas
 
         mkdir -p notebooks_to_deploy
 
